@@ -79,7 +79,8 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -lahF ${colorflag}"
-alias vsh="ssh vagrant@127.0.0.1 -p 2222"
+alias vssh="ssh vagrant@127.0.0.1 -p 2222"
+alias xview="xdg-open"
 
 # as per /etc/inputrc
 bindkey '\e[1~' beginning-of-line
